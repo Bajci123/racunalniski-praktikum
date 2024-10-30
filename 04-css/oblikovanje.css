@@ -44,9 +44,10 @@ h2  {
 #uvod {
     padding: 2em;
     background-color: rgba(51, 0, 102, 0.1);
+    border-radius: 50%; 
 }
 
-.slika{
+.slika {
     font-size: 0.9em;
     width: 40%;
     text-align: left;
@@ -57,4 +58,9 @@ h2  {
 .slika img {
     width: 100%;
     height: auto;
+}
+
+.slika p:last-child {
+    background-color: #cc0000;
+    font-size: 0.8em;
 }
